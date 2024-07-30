@@ -8,7 +8,7 @@ import {
   Delete,
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
-import { SubCategoryService } from './subcategory.service';
+import { SubCategoryService } from './subCategory.service';
 import { CreateSubCategoryDto } from './dto/create-subCategory.dto';
 import { UpdateSubCategoryDto } from './dto/update-subCategory.dto';
 
