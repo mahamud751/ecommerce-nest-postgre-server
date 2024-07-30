@@ -9,8 +9,8 @@ import {
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
 import { SubCategoryService } from './subcategory.service';
-import { CreateSubCategoryDto } from './dto/create-subcategory.dto';
-import { UpdateSubCategoryDto } from './dto/update-subcategory.dto';
+import { CreateSubCategoryDto } from './dto/create-subCategory.dto';
+import { UpdateSubCategoryDto } from './dto/update-subCategory.dto';
 
 @ApiTags('SubCategories')
 @Controller('subcategories')
